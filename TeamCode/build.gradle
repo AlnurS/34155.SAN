@@ -27,9 +27,9 @@ android {
 }
 
 repositories {
-    maven {
-        url = 'https://maven.brott.dev/'
-    }
+    mavenCentral()
+    google()
+    maven { url = 'https://maven.brott.dev/' }
 }
 
 dependencies {
